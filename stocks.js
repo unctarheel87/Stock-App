@@ -67,7 +67,6 @@ d3.json(url, function(error, marketData) {
     .attr("d", line)
     .attr("class", "line")
  
- 
   svg.append("g")
     .attr("class", "xAxis")
     .attr("transform", "translate(0," + height + ")")
